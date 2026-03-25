@@ -31,7 +31,7 @@ O cenário do nosso sistema simula a necessidade de uma empresa importar dados d
 
 Para resolver essa incompatibilidade **sem modificar o código existente**, foi implementado o padrão Adapter.
 
-![EXEMPLO DE IMAGEM: diagrama_uml_adapter.png]assets/estrutura do codigo.png)
+![EXEMPLO DE IMAGEM: diagrama_uml_adapter.png](assets/estruturadocodigo.png)
 
 * **Target (O Alvo):** `IFornecedor` e `ProdutoModerno` — Representa a interface e as classes que o sistema novo espera receber e entende perfeitamente.
 * **Adaptee (O Incompatível):** `SistemaErpAntigo` e `ProdutoAntigo` — O sistema velho, com dados em formatos obsoletos e métodos defasados.
