@@ -1,6 +1,6 @@
 # 📦 Sistema de Integração de Estoque (WPF)
 
-![EXEMPLO DE IMAGEM: banner_do_projeto.png](coloque_o_link_da_imagem_aqui)
+![EXEMPLO DE IMAGEM: banner_do_projeto.png](assets/banner.png)
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
@@ -21,7 +21,7 @@ Juntos, eles ficaram conhecidos como a **"Gang of Four" (Gangue dos Quatro, ou G
 
 Eles classificaram o **Adapter** como um **Padrão Estrutural**. Segundo o GoF, a intenção oficial do Adapter é *"converter a interface de uma classe em outra interface esperada pelos clientes, permitindo que classes trabalhem em conjunto, o que de outra forma seria impossível devido a interfaces incompatíveis"*. É exatamente esse conceito histórico que este projeto traz para a prática!
 
-![EXEMPLO DE IMAGEM: livro_gof_ou_autores.png](assets/banner.png)
+![EXEMPLO DE IMAGEM: livro_gof_ou_autores.png](assets/livrogof.png)
 
 ---
 
@@ -31,7 +31,7 @@ O cenário do nosso sistema simula a necessidade de uma empresa importar dados d
 
 Para resolver essa incompatibilidade **sem modificar o código existente**, foi implementado o padrão Adapter.
 
-![EXEMPLO DE IMAGEM: diagrama_uml_adapter.png](coloque_o_link_da_imagem_aqui)
+![EXEMPLO DE IMAGEM: diagrama_uml_adapter.png]assets/estrutura do codigo.png)
 
 * **Target (O Alvo):** `IFornecedor` e `ProdutoModerno` — Representa a interface e as classes que o sistema novo espera receber e entende perfeitamente.
 * **Adaptee (O Incompatível):** `SistemaErpAntigo` e `ProdutoAntigo` — O sistema velho, com dados em formatos obsoletos e métodos defasados.
