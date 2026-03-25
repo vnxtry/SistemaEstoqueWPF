@@ -21,7 +21,7 @@ Juntos, eles ficaram conhecidos como a **"Gang of Four" (Gangue dos Quatro, ou G
 
 Eles classificaram o **Adapter** como um **Padrão Estrutural**. Segundo o GoF, a intenção oficial do Adapter é *"converter a interface de uma classe em outra interface esperada pelos clientes, permitindo que classes trabalhem em conjunto, o que de outra forma seria impossível devido a interfaces incompatíveis"*. É exatamente esse conceito histórico que este projeto traz para a prática!
 
-![EXEMPLO DE IMAGEM: livro_gof_ou_autores.png](coloque_o_link_da_imagem_aqui)
+![EXEMPLO DE IMAGEM: livro_gof_ou_autores.png](assets/banner.png)
 
 ---
 
