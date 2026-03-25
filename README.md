@@ -47,7 +47,7 @@ Para resolver essa incompatibilidade **sem modificar o código existente**, foi 
 
 Além do Padrão de Projeto exigido, o sistema foi desenhado utilizando a arquitetura **MVVM (Model-View-ViewModel)**, considerada o padrão ouro para aplicações WPF.
 
-![EXEMPLO DE IMAGEM: print_da_tela_funcionando.png](coloque_o_link_da_imagem_aqui)
+![EXEMPLO DE IMAGEM: print_da_tela_funcionando.png](assets/printdaaplicaçaofuncionando)
 
 * **Model (Domínio):** Onde ficam nossas classes de negócio (`ProdutoModerno`, etc).
 * **View (Interface UI):** O arquivo XAML (`MainWindow.xaml`). Ela não possui regras de negócio no *Code-Behind*, sendo responsável apenas pela renderização visual.
